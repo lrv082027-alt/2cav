@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2º Simulado PMMA - Projeto Caveira (120 Questões)</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f6f9; margin: 0; padding: 20px; color: #333; }
+        .container { max-width: 950px; margin: 0 auto; background: white; padding: 35px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        h1, h2, h3 { color: #1a365d; }
+        .disciplina-titulo { background: #2b6cb0; color: white; padding: 10px 15px; border-radius: 5px; margin-top: 40px; }
+        .texto-suporte { background-color: #edf2f7; padding: 15px; border-left: 4px solid #3182ce; margin-bottom: 20px; font-size: 0.95em; line-height: 1.5; }
+        .questao { margin-bottom: 25px; border-bottom: 1px solid #e2e8f0; padding-bottom: 15px; }
+        .enunciado { font-weight: 600; margin-bottom: 12px; line-height: 1.4; }
+        .opcoes label { margin-right: 25px; cursor: pointer; font-size: 0.95em; }
+        .comentario { display: none; margin-top: 15px; background: #eef9ff; padding: 15px; border-left: 4px solid #0076d6; font-size: 0.92em; line-height: 1.5; }
+        .btn-submit { background-color: #2b6cb0; color: white; padding: 15px 30px; border: none; border-radius: 5px; cursor: pointer; font-size: 18px; font-weight: bold; width: 100%; margin-top: 30px; }
+        .btn-submit:hover { background-color: #2c5282; }
+        #resultado { display: none; margin-top: 40px; padding: 25px; background-color: #fff; border: 2px solid #2b6cb0; border-radius: 8px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #cbd5e0; padding: 12px; text-align: center; }
+        th { background-color: #edf2f7; color: #2d3748; }
+        .pontos-total { font-size: 1.4em; font-weight: bold; margin-top: 20px; text-align: center; color: #2c5282; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>2º Simulado PMMA - Projeto Caveira</h1>
+    <p><strong>Regra CESPE/CEBRASPE:</strong> Uma questão errada anula uma certa (+1 acerto, -1 erro, 0 em branco).</p>
+    <hr><br>
+
+    <form id="simulado-form">
+
+        <!-- LÍNGUA PORTUGUESA -->
+        <h2 class="disciplina-titulo">Língua Portuguesa (01 a 20)</h2>
+        
+        <div class="texto-suporte">
+            <strong>Texto de apoio para as questões 01 a 20:</strong><br>
+            O agrupamento das pessoas em classes sociais não é, ao contrário do que alguns pensam, "apenas uma decisão técnica como outra qualquer". Como tudo no estudo da desigualdade, esse agrupamento reflete decisões políticas, ainda que elas não sejam explícitas. E não é sem razão: a escolha da identificação de classes de uma forma específica tem implicações concretas. O problema não está apenas na terminologia usada, está também na forma como as classes são definidas. Quem não consegue entender isso pode fazer um exercício simples: identifique pobres como uma classe; considere que quase todo mundo queira erradicar a pobreza; que quase todo mundo queira saber melhor o que é preciso para tanto; defina como pobre 0,1% da população; nesse caso, que medida erradicaria a pobreza? Caridade privada seria suficiente; agora defina como pobre 99,9% da população. A medida recomendada seria uma revolução... [Marcelo Medeiros. Os ricos e os pobres, 2023]
+        </div>
+
+        <div class="questao" data-materia="Língua Portuguesa" data-resposta="E">
+            <div class="enunciado">01. Quanto à tipologia, o texto classifica-se como injuntivo, pois instrui o leitor a realizar pesquisa sobre as diversas implicações do agrupamento de pessoas em classes sociais.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q1" value="C"> Certo</label><label><input type="radio" name="q1" value="E"> Errado</label><label><input type="radio" name="q1" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> O texto não se classifica predominantemente como injuntivo, mas como argumentativo. Sua finalidade principal é defender a tese de que a divisão de classes sociais produz consequências políticas e sociais concretas[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Língua Portuguesa" data-resposta="E">
+            <div class="enunciado">02. Infere-se do texto que o agrupamento de pessoas em classes sociais não é útil para a sociedade, pois resulta em políticas públicas injustas.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q2" value="C"> Certo</label><label><input type="radio" name="q2" value="E"> Errado</label><label><input type="radio" name="q2" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Há duas extrapolações: o texto não afirma que a classificação é inútil nem conclui que ela necessariamente produz políticas injustas[cite: 1, 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Língua Portuguesa" data-resposta="C">
+            <div class="enunciado">03. No trecho "Em renda, irrelevante" (segundo período do último parágrafo), a vírgula é empregada para indicar uma elipse.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q3" value="C"> Certo</label><label><input type="radio" name="q3" value="E"> Errado</label><label><input type="radio" name="q3" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Correto. Houve a supressão do verbo "ser" ("Em renda [é] irrelevante")[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Língua Portuguesa" data-resposta="C">
+            <div class="enunciado">04. O uso das aspas no primeiro parágrafo indica um afastamento do autor da ideia transmitida no trecho por elas delimitado.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q4" value="C"> Certo</label><label><input type="radio" name="q4" value="E"> Errado</label><label><input type="radio" name="q4" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> As aspas delimitam a tese contrária de terceiros, da qual o autor se distancia ao defender seu ponto de vista[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Língua Portuguesa" data-resposta="E">
+            <div class="enunciado">05. Segundo o autor do texto, o principal problema das classificações sociais reside na terminologia utilizada, que não é suficientemente precisa para refletir a realidade social.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q5" value="C"> Certo</label><label><input type="radio" name="q5" value="E"> Errado</label><label><input type="radio" name="q5" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> O autor afirma que "o problema não está apenas na terminologia usada, está também na forma como as classes são definidas", indicando adição e não exclusividade[cite: 1, 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Língua Portuguesa" data-resposta="E">
+            <div class="enunciado">06. Estariam preservados a correção gramatical e o sentido original do primeiro período do último parágrafo caso o trecho "que define os benefícios de assistência social" fosse isolado entre vírgulas.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q6" value="C"> Certo</label><label><input type="radio" name="q6" value="E"> Errado</label><label><input type="radio" name="q6" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Isolar entre vírgulas alteraria a oração de subordinada adjetiva restritiva para explicativa, modificando o sentido original[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Língua Portuguesa" data-resposta="C">
+            <div class="enunciado">07. No trecho "Elas passam ou não pelo buraco da agulha dos critérios de elegibilidade de programas sociais", o autor faz referência à rigidez e à estreiteza dos critérios de acesso.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q7" value="C"> Certo</label><label><input type="radio" name="q7" value="E"> Errado</label><label><input type="radio" name="q7" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> A metáfora "buraco da agulha" expressa exatamente a estreiteza e rigidez dos critérios de seleção[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Língua Portuguesa" data-resposta="E">
+            <div class="enunciado">08. O pronome "isso" (primeiro período do segundo parágrafo) retoma o vocábulo "terminologia".[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q8" value="C"> Certo</label><label><input type="radio" name="q8" value="E"> Errado</label><label><input type="radio" name="q8" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> O pronome "isso" retoma toda a ideia proposicional anterior (as implicações políticas e sociais da definição de classes) e não apenas o termo isolado "terminologia"[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Língua Portuguesa" data-resposta="C">
+            <div class="enunciado">09. No trecho "esse agrupamento reflete decisões políticas, ainda que elas não sejam explícitas", a substituição de "ainda que" por "conquanto" manteria a sintaxe e a semântica.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q9" value="C"> Certo</label><label><input type="radio" name="q9" value="E"> Errado</label><label><input type="radio" name="q9" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Ambas são conjunções subordinativas concessivas, perfeitamente intercambiáveis sem prejuízo[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Língua Portuguesa" data-resposta="C">
+            <div class="enunciado">10. As palavras "explícitas" e "técnica" seguem a mesma regra de acentuação gráfica.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q10" value="C"> Certo</label><label><input type="radio" name="q10" value="E"> Errado</label><label><input type="radio" name="q10" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Ambas as palavras são proparoxítonas e todas as proparoxítonas são acentuadas graficamente[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Língua Portuguesa" data-resposta="E">
+            <div class="enunciado">11. O último período do primeiro parágrafo poderia ser reescrito sem prejuízo por: "O problema não só está na terminologia usada, mas também na forma como definiram as classes".[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q11" value="C"> Certo</label><label><input type="radio" name="q11" value="E"> Errado</label><label><input type="radio" name="q11" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> A alteração da voz passiva analítica ("são definidas") para a ativa com indeterminação ("definiram") altera a estrutura sintática e o foco de sentido original[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Língua Portuguesa" data-resposta="C">
+            <div class="enunciado">12. Em "a escolha da identificação de classes", nas duas ocorrências da preposição "de", são introduzidas funções sintáticas iguais.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q12" value="C"> Certo</label><label><input type="radio" name="q12" value="E"> Errado</label><label><input type="radio" name="q12" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Ambas as estruturas ("da identificação" e "de classes") exercem a função sintática de complemento nominal com valor passivo[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Língua Portuguesa" data-resposta="C">
+            <div class="enunciado">13. Em "Alguns programas chegam a ser desenhados com base em classes", o uso do acento indicativo de crase no termo destacado implicaria incorreção gramatical do texto.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q13" value="C"> Certo</label><label><input type="radio" name="q13" value="E"> Errado</label><label><input type="radio" name="q13" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Não se emprega crase antes de verbos (no caso, a forma verbal "ser")[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Língua Portuguesa" data-resposta="E">
+            <div class="enunciado">14. Caso fosse inserido o artigo "o" logo após o pronome indefinido "todo", em "quase todo mundo queira saber melhor", o sentido original do texto seria preservado.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q14" value="C"> Certo</label><label><input type="radio" name="q14" value="E"> Errado</label><label><input type="radio" name="q14" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> "Todo mundo" significa todas as pessoas. "Todo o mundo" refere-se ao planeta/mundo inteiro. A alteração muda o sentido[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Língua Portuguesa" data-resposta="C">
+            <div class="enunciado">15. Em "[...] a classificação elegível e não elegível tem impactos concretos...", caso fosse inserido o artigo "a" antes de "não", o verbo "tem" precisaria do acento circunflexo.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q15" value="C"> Certo</label><label><input type="radio" name="q15" value="E"> Errado</label><label><input type="radio" name="q15" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Com a inserção do artigo ("a classificação elegível e a não elegível"), cria-se um sujeito composto por elipse, exigindo a concordância do verbo no plural: "têm"[cite: 1, 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Língua Portuguesa" data-resposta="C">
+            <div class="enunciado">16. Em "Quem não consegue entender isso pode fazer um exercício simples", o sujeito da forma verbal "pode fazer" é oracional.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q16" value="C"> Certo</label><label><input type="radio" name="q16" value="E"> Errado</label><label><input type="radio" name="q16" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> A oração inteira "Quem não consegue entender isso" atua como sujeito oracional da locução "pode fazer"[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Língua Portuguesa" data-resposta="E">
+            <div class="enunciado">17. Em "uma pessoa um centavo abaixo da linha de renda", a expressão destacada poderia ser substituída por "embaixo", sem prejuízo sintático e semântico.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q17" value="C"> Certo</label><label><input type="radio" name="q17" value="E"> Errado</label><label><input type="radio" name="q17" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> "Abaixo" indica posição inferior relativa a uma escala ou parâmetro quantitativo. "Embaixo" refere-se à localização física/espacial concreta[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Língua Portuguesa" data-resposta="C">
+            <div class="enunciado">18. Ao comparar uma pessoa situada um centavo abaixo e outra um centavo acima da linha de renda, o texto sustenta que a classificação decorrente pode gerar consequências concretas.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q18" value="C"> Certo</label><label><input type="radio" name="q18" value="E"> Errado</label><label><input type="radio" name="q18" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Exatamente o argumento do autor no último parágrafo: a diferença econômica é mínima, mas a classificação gera elegibilidade ou exclusão social[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Língua Portuguesa" data-resposta="E">
+            <div class="enunciado">19. No período "Alguns programas chegam a ser desenhados com base em classes", o agente responsável por desenhar é marcado por "alguns programas".[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q19" value="C"> Certo</label><label><input type="radio" name="q19" value="E"> Errado</label><label><input type="radio" name="q19" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> "Alguns programas" é o sujeito paciente da oração em voz passiva, não o agente causador da ação[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Língua Portuguesa" data-resposta="C">
+            <div class="enunciado">20. No trecho "...tem implicações práticas, pois pesquisa em desigualdade é usada para definir políticas", a conjunção "pois" introduz oração explicativa.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q20" value="C"> Certo</label><label><input type="radio" name="q20" value="E"> Errado</label><label><input type="radio" name="q20" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> A conjunção "pois" justifica e explica o motivo de haver implicações práticas[cite: 1, 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <!-- HISTÓRIA DO BRASIL -->
+        <h2 class="disciplina-titulo">História do Brasil (21 a 25)</h2>
+
+        <div class="questao" data-materia="História do Brasil" data-resposta="C">
+            <div class="enunciado">21. Durante o Governo Constitucional de Vargas, a AIB defendia ideias inspiradas no fascismo europeu, enquanto a ANL possuía orientação comunista e esteve ligada à Intentona Comunista de 1935.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q21" value="C"> Certo</label><label><input type="radio" name="q21" value="E"> Errado</label><label><input type="radio" name="q21" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Correto. Período de forte polarização ideológica entre o fascismo da AIB e o comunismo/antifascismo da ANL[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="História do Brasil" data-resposta="C">
+            <div class="enunciado">22. A política desenvolvimentista adotada durante o governo de Juscelino Kubitschek priorizou a industrialização, sintetizada no Plano de Metas, cujo lema era "50 anos em 5".[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q22" value="C"> Certo</label><label><input type="radio" name="q22" value="E"> Errado</label><label><input type="radio" name="q22" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Exatamente. O Plano de Metas priorizou energia, transportes, indústria de base e a construção de Brasília[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="História do Brasil" data-resposta="E">
+            <div class="enunciado">23. Durante o Governo de Juscelino, a indústria automotiva recebeu altos investimentos dos EUA decorrentes da chamada Operação Pan-Americana (OPA)...[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q23" value="C"> Certo</label><label><input type="radio" name="q23" value="E"> Errado</label><label><input type="radio" name="q23" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> A OPA foi uma iniciativa diplomática de JK propondo auxílio à América Latina, mas não gerou investimentos diretos dos EUA para a indústria automobilística brasileira[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="História do Brasil" data-resposta="C">
+            <div class="enunciado">24. A Constituição de 1946 reconheceu a educação básica como direito, estabeleceu a gratuidade do ensino primário e fixou percentuais de arrecadação fiscal para o setor.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q24" value="C"> Certo</label><label><input type="radio" name="q24" value="E"> Errado</label><label><input type="radio" name="q24" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Correto. Definiu a destinação vinculada mínima de impostos para a educação (União: min 10%; Estados e Municípios: min 20%)[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="História do Brasil" data-resposta="E">
+            <div class="enunciado">25. A crise decorrente da renúncia do presidente Jânio Quadros, em 1961, foi passageira, pois rapidamente houve a posse, sem contestação, do vice João Goulart.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q25" value="C"> Certo</label><label><input type="radio" name="q25" value="E"> Errado</label><label><input type="radio" name="q25" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> A posse foi duramente vetada pelos ministros militares e só ocorreu após a aprovação do Parlamentarismo como solução negociada[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <!-- HISTÓRIA DO MARANHÃO -->
+        <h2 class="disciplina-titulo">História do Maranhão (26 a 30)</h2>
+
+        <div class="questao" data-materia="História do Maranhão" data-resposta="C">
+            <div class="enunciado">26. A criação da Companhia Geral de Comércio do Grão-Pará e Maranhão (1755) ocorreu no contexto de autonomia do Estado do Grão-Pará e Maranhão em relação ao Brasil.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q26" value="C"> Certo</label><label><input type="radio" name="q26" value="E"> Errado</label><label><input type="radio" name="q26" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Correto. Era uma unidade administrativa autônoma diretamente subordinada a Lisboa[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="História do Maranhão" data-resposta="C">
+            <div class="enunciado">27. A expulsão dos holandeses do Maranhão (1644) resultou de revolta armada organizada por colonos e indígenas, liderada por Muniz Barreiros e Teixeira de Melo.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q27" value="C"> Certo</label><label><input type="radio" name="q27" value="E"> Errado</label><label><input type="radio" name="q27" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Correto. As forças locais de resistência expulsaram os holandeses em 28 de fevereiro de 1644[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="História do Maranhão" data-resposta="E">
+            <div class="enunciado">28. A adesão do Maranhão ao Império brasileiro ocorreu logo após o Grito do Ipiranga porque a elite da província rompeu imediatamente com Portugal.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q28" value="C"> Certo</label><label><input type="radio" name="q28" value="E"> Errado</label><label><input type="radio" name="q28" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> O Maranhão resistiu por quase 11 meses e só aderiu em 28 de julho de 1823 sob forte intervenção militar e naval[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="História do Maranhão" data-resposta="E">
+            <div class="enunciado">29. Com a incorporação do Maranhão ao Império em 1823, a província perdeu sua autonomia administrativa e deixou de possuir presidente provincial.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q29" value="C"> Certo</label><label><input type="radio" name="q29" value="E"> Errado</label><label><input type="radio" name="q29" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> A província continuou com estrutura administrativa e possuía presidente de província nomeado pelo Imperador[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="História do Maranhão" data-resposta="C">
+            <div class="enunciado">30. A permanência inicial do Maranhão ao lado de Portugal esteve ligada à elite lusitana, comércio com Lisboa, presença de tropas e isolamento do Rio de Janeiro.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q30" value="C"> Certo</label><label><input type="radio" name="q30" value="E"> Errado</label><label><input type="radio" name="q30" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Perfeito. Fatores econômicos, militares e a localização estratégica retardaram o reconhecimento da independência[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <!-- GEOGRAFIA DO BRASIL -->
+        <h2 class="disciplina-titulo">Geografia do Brasil (31 a 35)</h2>
+
+        <div class="questao" data-materia="Geografia do Brasil" data-resposta="E">
+            <div class="enunciado">31. A Lei de Terras de 1850 promoveu ampla redistribuição de propriedades rurais, facilitando o acesso gratuito por pequenos agricultores.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q31" value="C"> Certo</label><label><input type="radio" name="q31" value="E"> Errado</label><label><input type="radio" name="q31" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> A Lei de Terras condicionou a aquisição de terras devolutas à compra em dinheiro, concentrando ainda mais a estrutura fundiária[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Geografia do Brasil" data-resposta="C">
+            <div class="enunciado">32. Na 2ª metade do século XX, São Paulo foi polo de imigração (nordestinos), mas nas últimas décadas passou a apresentar perdas migratórias relativas.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q32" value="C"> Certo</label><label><input type="radio" name="q32" value="E"> Errado</label><label><input type="radio" name="q32" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Correto. Houve aumento da migração de retorno e desaceleração do crescimento populacional devido ao custo de vida e desconcentração produtiva[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Geografia do Brasil" data-resposta="E">
+            <div class="enunciado">33. A interiorização da infraestrutura no século XX eliminou o padrão de concentração populacional no litoral brasileiro.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q33" value="C"> Certo</label><label><input type="radio" name="q33" value="E"> Errado</label><label><input type="radio" name="q33" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> As políticas expandiram o interior, mas NÃO eliminaram a histórica concentração populacional na faixa litorânea[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Geografia do Brasil" data-resposta="C">
+            <div class="enunciado">34. O envelhecimento populacional é global e impacta o mercado de trabalho, a previdência e as políticas de saúde em países ricos e em desenvolvimento.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q34" value="C"> Certo</label><label><input type="radio" name="q34" value="E"> Errado</label><label><input type="radio" name="q34" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Exatamente. A transição demográfica provoca maior pressão sobre a seguridade social e os serviços de saúde[cite: 1, 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Geografia do Brasil" data-resposta="C">
+            <div class="enunciado">35. O afunilamento da base da pirâmide etária brasileira reflete a constante redução nas taxas de natalidade e fecundidade.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q35" value="C"> Certo</label><label><input type="radio" name="q35" value="E"> Errado</label><label><input type="radio" name="q35" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Correto. A diminuição da proporção de crianças afunila a base da pirâmide etária[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <!-- GEOGRAFIA DO MARANHÃO -->
+        <h2 class="disciplina-titulo">Geografia do Maranhão (36 a 40)</h2>
+
+        <div class="questao" data-materia="Geografia do Maranhão" data-resposta="E">
+            <div class="enunciado">36. A exploração da gipsita no Maranhão concentra-se em Imperatriz e destina-se quase exclusivamente a fertilizantes fosfatados.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q36" value="C"> Certo</label><label><input type="radio" name="q36" value="E"> Errado</label><label><input type="radio" name="q36" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> O principal polo de gipsita do Maranhão é o município de Grajaú e seu principal uso é na construção civil (gesso e cimento)[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Geografia do Maranhão" data-resposta="C">
+            <div class="enunciado">37. A Mata dos Cocais é classificada como um ecótono de transição entre a Amazônia, o Cerrado e a Caatinga.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q37" value="C"> Certo</label><label><input type="radio" name="q37" value="E"> Errado</label><label><input type="radio" name="q37" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Correto. Não é um bioma próprio, mas uma zona de transição (ecótono) rica em babaçu e carnaúba[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Geografia do Maranhão" data-resposta="E">
+            <div class="enunciado">38. A urbanização maranhense distribuiu a população de maneira equilibrada e eliminou os vazios demográficos no oeste do estado.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q38" value="C"> Certo</label><label><input type="radio" name="q38" value="E"> Errado</label><label><input type="radio" name="q38" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> A urbanização manteve forte concentração na Grande São Luís e polos como Imperatriz, sem eliminar os vazios demográficos[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Geografia do Maranhão" data-resposta="C">
+            <div class="enunciado">39. A Bacia do Rio Itapecuru é a principal bacia genuinamente maranhense, nascendo e desaguando no território do estado.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q39" value="C"> Certo</label><label><input type="radio" name="q39" value="E"> Errado</label><label><input type="radio" name="q39" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Perfeito. Nasce no Parque Estadual do Mirador e deságua na Baía de São José[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Geografia do Maranhão" data-resposta="E">
+            <div class="enunciado">40. A expansão da fronteira agrícola no Maranhão ocorre de maneira totalmente sustentável, sem impacto ambiental no Cerrado.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q40" value="C"> Certo</label><label><input type="radio" name="q40" value="E"> Errado</label><label><input type="radio" name="q40" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Falso. O avanço do agronegócio enfrenta significativos conflitos e pressão ambiental sobre o Cerrado[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <!-- RACIOCÍNIO LÓGICO E MATEMÁTICO -->
+        <h2 class="disciplina-titulo">Raciocínio Lógico e Matemático (41 a 50)</h2>
+
+        <div class="questao" data-materia="Raciocínio Lógico" data-resposta="C">
+            <div class="enunciado">41. A proposição "Caso a equipe tenha autorização e o mandado tenha sido expedido, os agentes não farão a busca ou o suspeito será conduzido" equivale a (P ∧ Q) → (¬R ∨ S).[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q41" value="C"> Certo</label><label><input type="radio" name="q41" value="E"> Errado</label><label><input type="radio" name="q41" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Tradução simbólica perfeita da condicional lógica composta[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Raciocínio Lógico" data-resposta="E">
+            <div class="enunciado">42. A frase "Apresente o relatório da ocorrência e encaminhe os documentos ao setor responsável." é uma proposição lógica composta.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q42" value="C"> Certo</label><label><input type="radio" name="q42" value="E"> Errado</label><label><input type="radio" name="q42" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Frases imperativas (ordens) não são proposições lógicas pois não possuem valor-verdade (V ou F)[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Raciocínio Lógico" data-resposta="C">
+            <div class="enunciado">43. Dadas P1, P2 e P3 verdadeiras: Sabendo que o suspeito NÃO estava acompanhado, conclui-se com certeza que ele estava no estacionamento.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q43" value="C"> Certo</label><label><input type="radio" name="q43" value="E"> Errado</label><label><input type="radio" name="q43" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Por P3 (Veículo ou Acompanhado), se não acompanhado -> utilizou veículo. Por P2 (Estacionamento ou Não Veículo) -> estava no estacionamento. Dedução válida[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Raciocínio Lógico" data-resposta="C">
+            <div class="enunciado">44. Na condicional "Se ele atacou o animal e ficar provado, ele responderá", se "ficar provado" for FALSO, a proposição P será VERDADEIRA.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q44" value="C"> Certo</label><label><input type="radio" name="q44" value="E"> Errado</label><label><input type="radio" name="q44" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Na condicional (Se A e B -> C), se o antecedente for falso (devido ao B=F), a condicional é sempre verdadeira (F -> V/F = V)[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Raciocínio Lógico" data-resposta="E">
+            <div class="enunciado">45. O número de linhas da tabela-verdade associada à proposição P (composta por 3 proposições simples) é superior a 10.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q45" value="C"> Certo</label><label><input type="radio" name="q45" value="E"> Errado</label><label><input type="radio" name="q45" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> O número de linhas é dado por 2^n = 2³ = 8 linhas, que não é superior a 10[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Raciocínio Lógico" data-resposta="C">
+            <div class="enunciado">46. A negação de P é dada por: "Ele atacou o animal e ficou provado, mas ele não respondeu".[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q46" value="C"> Certo</label><label><input type="radio" name="q46" value="E"> Errado</label><label><input type="radio" name="q46" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Regra da negação da condicional (MANÉ: mantém a primeira E nega a segunda). O "mas" funciona com valor de conjunção E[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Raciocínio Lógico" data-resposta="C">
+            <div class="enunciado">47. P é equivalente a "Se ele não respondeu, então não atacou o animal ou não ficou provado".[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q47" value="C"> Certo</label><label><input type="radio" name="q47" value="E"> Errado</label><label><input type="radio" name="q47" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Equivalência contrapositiva (Inverte e nega tudo, aplicando Morgan na conjunção)[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Raciocínio Lógico" data-resposta="E">
+            <div class="enunciado">48. A última coluna da tabela-verdade da conjunção p ∧ q possui exatamente duas linhas com valor Falso.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q48" value="C"> Certo</label><label><input type="radio" name="q48" value="E"> Errado</label><label><input type="radio" name="q48" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Na tabela do conectivo "E", há 1 linha Verdadeira e 3 linhas Falsas[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Raciocínio Lógico" data-resposta="E">
+            <div class="enunciado">49. A negação lógica de "Nenhum servidor possui acesso" é "Todo servidor possui acesso".[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q49" value="C"> Certo</label><label><input type="radio" name="q49" value="E"> Errado</label><label><input type="radio" name="q49" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> A negação do quantificador universal NENHUM é feita com o quantificador existencial (Existe/Pelo menos um/Algum)[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Raciocínio Lógico" data-resposta="C">
+            <div class="enunciado">50. É válido o argumento: "Todos os gatos são camelos. Nenhum camelo é mamífero. Logo, nenhum gato é mamífero".[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q50" value="C"> Certo</label><label><input type="radio" name="q50" value="E"> Errado</label><label><input type="radio" name="q50" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Pelo diagrama de Venn, o conjunto dos Gatos está contido nos Camelos e totalmente disjunto de Mamíferos. Validade lógica confirmada[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <!-- LEGISLAÇÃO INSTITUCIONAL -->
+        <h2 class="disciplina-titulo">Legislação Institucional (51 a 85)</h2>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="C">
+            <div class="enunciado">51. As recompensas militares incluem dispensas de serviço de até 08 dias.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q51" value="C"> Certo</label><label><input type="radio" name="q51" value="E"> Errado</label><label><input type="radio" name="q51" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Art. 158 e 159 da Lei 6.513/95 (Estatuto PMMA)[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="E">
+            <div class="enunciado">52. A responsabilidade do comandante por suas ordens é mitigada se o subordinado a executa mal.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q52" value="C"> Certo</label><label><input type="radio" name="q52" value="E"> Errado</label><label><input type="radio" name="q52" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Art. 54 do Estatuto: a responsabilidade pelas ordens emitidas é integral[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="C">
+            <div class="enunciado">53. O oficial com menos de 3 anos de oficialato que pedir demissão indenizará o Estado, salvo se for para outra força militar do MA.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q53" value="C"> Certo</label><label><input type="radio" name="q53" value="E"> Errado</label><label><input type="radio" name="q53" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Art. 134 com alteração recente (Lei 12.597)[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="E">
+            <div class="enunciado">54. Na ausência de Tribunal Militar, o TJMA julga os militares em 1ª instância nos crimes militares.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q54" value="C"> Certo</label><label><input type="radio" name="q54" value="E"> Errado</label><label><input type="radio" name="q54" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> A 1ª instância cabe à Auditoria da Justiça Militar Estadual; o TJMA atua em 2ª instância[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="C">
+            <div class="enunciado">55. A exclusão a bem da disciplina aplica-se ex-officio a praças estáveis condenadas a pena privativa de liberdade superior a 2 anos.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q55" value="C"> Certo</label><label><input type="radio" name="q55" value="E"> Errado</label><label><input type="radio" name="q55" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Art. 141, I da Lei 6.513/95[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="E">
+            <div class="enunciado">56. A expressão "na ativa" aplica-se exclusivamente a quem desempenha cargo dentro das OPMs.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q56" value="C"> Certo</label><label><input type="radio" name="q56" value="E"> Errado</label><label><input type="radio" name="q56" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Aplica-se também a militares à disposição de outros órgãos estatais previstos em regulamento[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="C">
+            <div class="enunciado">57. Aprovados no Quadro de Saúde realizam estágio não inferior a 90 dias antes de nomeados 1º Tenente.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q57" value="C"> Certo</label><label><input type="radio" name="q57" value="E"> Errado</label><label><input type="radio" name="q57" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Redação do Art. 13, § 2º da Lei 6.513/95[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="E">
+            <div class="enunciado">58. O afastamento preventivo do cargo é competência exclusiva e indelegável do Governador.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q58" value="C"> Certo</label><label><input type="radio" name="q58" value="E"> Errado</label><label><input type="radio" name="q58" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> São competentes o Governador, o Secretário de Segurança e o Comandante-Geral[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="C">
+            <div class="enunciado">59. Filhos de PMs promovidos post-mortem têm vaga garantida no Colégio Militar.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q59" value="C"> Certo</label><label><input type="radio" name="q59" value="E"> Errado</label><label><input type="radio" name="q59" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Art. 62, "p" do Estatuto[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="E">
+            <div class="enunciado">60. O militar na ativa recebe por subsídio em parcela única, permitidas gratificações locais.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q60" value="C"> Certo</label><label><input type="radio" name="q60" value="E"> Errado</label><label><input type="radio" name="q60" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Vedada expressamente qualquer gratificação ou adicional[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="C">
+            <div class="enunciado">61. Cursos de aperfeiçoamento (exceto CFO) devem ser oferecidos no MA com duração máxima de 04 meses.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q61" value="C"> Certo</label><label><input type="radio" name="q61" value="E"> Errado</label><label><input type="radio" name="q61" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Art. 78-A da Lei 6.513/95[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="E">
+            <div class="enunciado">62. É permitida a acumulação de férias por até três anos consecutivos.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q62" value="C"> Certo</label><label><input type="radio" name="q62" value="E"> Errado</label><label><input type="radio" name="q62" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Máximo de acumulação: 2 anos por necessidade do serviço[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="C">
+            <div class="enunciado">63. O oficial presumivelmente incapaz responde a Conselho de Justificação julgado pelo TJMA.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q63" value="C"> Certo</label><label><input type="radio" name="q63" value="E"> Errado</label><label><input type="radio" name="q63" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Art. 60, §2º da Lei 6.513/95[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="E">
+            <div class="enunciado">64. A perda de nacionalidade autoriza o Governador a demitir o oficial independente do Judiciário.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q64" value="C"> Certo</label><label><input type="radio" name="q64" value="E"> Errado</label><label><input type="radio" name="q64" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Perda de posto e patente exige decisão do Tribunal de Justiça[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="C">
+            <div class="enunciado">65. Reserva remunerada pode ser convocada aceitando voluntariamente por prazo determinado.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q65" value="C"> Certo</label><label><input type="radio" name="q65" value="E"> Errado</label><label><input type="radio" name="q65" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Art. 122 do Estatuto[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="E">
+            <div class="enunciado">66. "Agente militar de ordem" é expressão equivalente oficial prevista no Estatuto.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q66" value="C"> Certo</label><label><input type="radio" name="q66" value="E"> Errado</label><label><input type="radio" name="q66" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Essa expressão não consta no rol legal do Art. 2º[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="C">
+            <div class="enunciado">67. Hierarquia e disciplina são a base institucional da Polícia Militar.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q67" value="C"> Certo</label><label><input type="radio" name="q67" value="E"> Errado</label><label><input type="radio" name="q67" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Art. 17 do Estatuto[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="E">
+            <div class="enunciado">68. Pela Lei Orgânica Nacional (14.751/23), as PMs não são essenciais à Justiça Militar.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q68" value="C"> Certo</label><label><input type="radio" name="q68" value="E"> Errado</label><label><input type="radio" name="q68" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> São expressamente declaradas essenciais à Justiça Militar (Art. 2º)[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="C">
+            <div class="enunciado">69. Universalidade do serviço e interação comunitária são princípios das polícias militares.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q69" value="C"> Certo</label><label><input type="radio" name="q69" value="E"> Errado</label><label><input type="radio" name="q69" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Art. 3º, XI e XII da Lei 14.751/23[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="E">
+            <div class="enunciado">70. Efetivo policial deve ser planejado unicamente em proporção à área geográfica.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q70" value="C"> Certo</label><label><input type="radio" name="q70" value="E"> Errado</label><label><input type="radio" name="q70" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Deve considerar a população e indicadores socioeconômicos (Art. 4º)[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="C">
+            <div class="enunciado">71. Compete às PMs a fiscalização de trânsito respeitando agentes concursados.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q71" value="C"> Certo</label><label><input type="radio" name="q71" value="E"> Errado</label><label><input type="radio" name="q71" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Art. 5º, V da Lei 14.751/23[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="E">
+            <div class="enunciado">72. Perícia de incêndio do Bombeiro é feita simultaneamente com a Perícia Criminal.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q72" value="C"> Certo</label><label><input type="radio" name="q72" value="E"> Errado</label><label><input type="radio" name="q72" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> É feita após a liberação pelo perito criminal[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="C">
+            <div class="enunciado">73. É vedado ministrar treinamento de natureza militar para órgãos civis.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q73" value="C"> Certo</label><label><input type="radio" name="q73" value="E"> Errado</label><label><input type="radio" name="q73" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Art. 8º, parágrafo único da Lei 14.751/23[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="E">
+            <div class="enunciado">74. Qualquer tatuagem visível no uniforme impede o ingresso na corporação.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q74" value="C"> Certo</label><label><input type="radio" name="q74" value="E"> Errado</label><label><input type="radio" name="q74" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Apenas tatuagens de conteúdo ilícito, extremista ou discriminatório são proibidas[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="C">
+            <div class="enunciado">75. Ingresso no Quadro de Oficial de Estado-Maior da PM exige Bacharel em Direito.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q75" value="C"> Certo</label><label><input type="radio" name="q75" value="E"> Errado</label><label><input type="radio" name="q75" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Art. 15, I da Lei Orgânica Nacional[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="E">
+            <div class="enunciado">76. Pena privativa de liberdade transitada em julgado deve ser cumprida em presídio comum.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q76" value="C"> Certo</label><label><input type="radio" name="q76" value="E"> Errado</label><label><input type="radio" name="q76" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Cumprida em unidade prisional militar (Art. 18)[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="C">
+            <div class="enunciado">77. Comandante-Geral tem prerrogativas de General de Brigada para precedência.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q77" value="C"> Certo</label><label><input type="radio" name="q77" value="E"> Errado</label><label><input type="radio" name="q77" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Art. 29, §6º da Lei Nacional[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="C">
+            <div class="enunciado">78. A PMMA é força auxiliar e reserva do Exército (Lei Orgânica Estadual 12.896/26).[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q78" value="C"> Certo</label><label><input type="radio" name="q78" value="E"> Errado</label><label><input type="radio" name="q78" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Art. 1º da Lei de Organização Básica[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="E">
+            <div class="enunciado">79. A PMMA é órgão da administração indireta subordinada à Secretaria de Segurança.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q79" value="C"> Certo</label><label><input type="radio" name="q79" value="E"> Errado</label><label><input type="radio" name="q79" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> É órgão da administração DIRETA subordinada ao Governador[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="C">
+            <div class="enunciado">80. Compete à PMMA atuar na proteção ambiental.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q80" value="C"> Certo</label><label><input type="radio" name="q80" value="E"> Errado</label><label><input type="radio" name="q80" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Art. 4º, IX da LOB PMMA[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="E">
+            <div class="enunciado">81. O Comandante-Geral pode ser escolhido entre oficiais de qualquer quadro.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q81" value="C"> Certo</label><label><input type="radio" name="q81" value="E"> Errado</label><label><input type="radio" name="q81" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Exige-se ser Coronel do Quadro de Estado-Maior (QOEM)[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="C">
+            <div class="enunciado">82. O Subcomandante-Geral substitui o Comandante-Geral em seu impedimento.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q82" value="C"> Certo</label><label><input type="radio" name="q82" value="E"> Errado</label><label><input type="radio" name="q82" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Linha de sucessão direta do Art. 111[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="E">
+            <div class="enunciado">83. As Diretorias elaboram as diretrizes de policiamento ostensivo do governo.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q83" value="C"> Certo</label><label><input type="radio" name="q83" value="E"> Errado</label><label><input type="radio" name="q83" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Diretrizes de policiamento cabem aos Grandes Comandos; Diretorias cuidam de apoio setorial[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="C">
+            <div class="enunciado">84. O Quadro de Saúde é formado por graduados na área com Curso de Habilitação.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q84" value="C"> Certo</label><label><input type="radio" name="q84" value="E"> Errado</label><label><input type="radio" name="q84" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Art. 99 da LOB PMMA[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Legislação Institucional" data-resposta="E">
+            <div class="enunciado">85. O recém-formado deve permanecer na primeira unidade por no mínimo 2 anos.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q85" value="C"> Certo</label><label><input type="radio" name="q85" value="E"> Errado</label><label><input type="radio" name="q85" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Prazo mínimo de permanência é de 3 anos[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <!-- NOÇÕES DE INFORMÁTICA -->
+        <h2 class="disciplina-titulo">Noções de Informática (86 a 120)</h2>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="C">
+            <div class="enunciado">86. No Windows 11, o aplicativo Relógio permite ativar "Sessões de Foco" para silenciar notificações.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q86" value="C"> Certo</label><label><input type="radio" name="q86" value="E"> Errado</label><label><input type="radio" name="q86" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Função Focus Sessions integrada ao aplicativo Relógio no Windows 11[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="E">
+            <div class="enunciado">87. Cada octeto do IPv4 assume valores decimais de 0 a 512.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q87" value="C"> Certo</label><label><input type="radio" name="q87" value="E"> Errado</label><label><input type="radio" name="q87" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> O intervalo de 8 bits (1 octeto) varia de 0 a 255[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="C">
+            <div class="enunciado">88. O Microsoft Excel permite vinculação a dados de outras planilhas e pastas de trabalho.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q88" value="C"> Certo</label><label><input type="radio" name="q88" value="E"> Errado</label><label><input type="radio" name="q88" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Referências externas são amplamente suportadas no Excel[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="C">
+            <div class="enunciado">89. O protocolo IP opera na camada de Internet, enquanto TCP e UDP operam no Transporte.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q89" value="C"> Certo</label><label><input type="radio" name="q89" value="E"> Errado</label><label><input type="radio" name="q89" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Mapeamento correto do modelo TCP/IP[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="E">
+            <div class="enunciado">90. No Excel, não é possível ordenar dados enquanto o filtro estiver ativo.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q90" value="C"> Certo</label><label><input type="radio" name="q90" value="E"> Errado</label><label><input type="radio" name="q90" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Filtro e ordenação funcionam simultaneamente sem impedimento[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="C">
+            <div class="enunciado">91. O atalho Win + D altera a exibição da Área de Trabalho (minimiza/restaura janelas).[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q91" value="C"> Certo</label><label><input type="radio" name="q91" value="E"> Errado</label><label><input type="radio" name="q91" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Função clássica de exibição da Área de Trabalho[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="E">
+            <div class="enunciado">92. No Linux, atualizações do kernel não exigem reinicialização do sistema.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q92" value="C"> Certo</label><label><input type="radio" name="q92" value="E"> Errado</label><label><input type="radio" name="q92" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Atualizações do núcleo (kernel) demandam reboot para entrarem em execução em memória[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="C">
+            <div class="enunciado">93. No sistema NTFS, uma negação explícita prevalece sobre a permissão de grupo.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q93" value="C"> Certo</label><label><input type="radio" name="q93" value="E"> Errado</label><label><input type="radio" name="q93" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Regra do NTFS: a Negação Explícita tem prioridade sobre a Permissão[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="C">
+            <div class="enunciado">94. Gerenciadores APT e YUM realizam atualizações de pacotes e correções de segurança no Linux.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q94" value="C"> Certo</label><label><input type="radio" name="q94" value="E"> Errado</label><label><input type="radio" name="q94" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Ferramentas padrão de distribuições Debian e RedHat/CentOS[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="C">
+            <div class="enunciado">95. No Impress, o Slide Mestre centraliza formatações replicadas em todos os slides.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q95" value="C"> Certo</label><label><input type="radio" name="q95" value="E"> Errado</label><label><input type="radio" name="q95" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Função primordial do Slide Mestre[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="E">
+            <div class="enunciado">96. O acúmulo de registros físicos em papel é a melhor estratégia de backup.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q96" value="C"> Certo</label><label><input type="radio" name="q96" value="E"> Errado</label><label><input type="radio" name="q96" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Papel sofre sinistros e não possui recursos de segurança/recuperação rápida digital[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="C">
+            <div class="enunciado">97. A ferramenta Pincel no Writer copia atributos de formatação para outro trecho.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q97" value="C"> Certo</label><label><input type="radio" name="q97" value="E"> Errado</label><label><input type="radio" name="q97" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Função exata do Pincel de Formatação[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="E">
+            <div class="enunciado">98. O Word não permite a inserção direta de gráficos.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q98" value="C"> Certo</label><label><input type="radio" name="q98" value="E"> Errado</label><label><input type="radio" name="q98" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Menu Inserir -> Gráfico integrado ao Excel[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="C">
+            <div class="enunciado">99. O protocolo DNS traduz nomes de domínios em endereços IP numéricos.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q99" value="C"> Certo</label><label><input type="radio" name="q99" value="E"> Errado</label><label><input type="radio" name="q99" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Função do Domain Name System (Camada de Aplicação)[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="E">
+            <div class="enunciado">100. O PowerPoint não permite salvar arquivos em formatos como PDF ou imagem.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q100" value="C"> Certo</label><label><input type="radio" name="q100" value="E"> Errado</label><label><input type="radio" name="q100" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Permite salvar em PDF, JPG, PNG, MP4 entre outros[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="E">
+            <div class="enunciado">101. A criptografia assimétrica utiliza uma única chave compartilhada.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q101" value="C"> Certo</label><label><input type="radio" name="q101" value="E"> Errado</label><label><input type="radio" name="q101" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> A assimétrica utiliza um par de chaves (uma pública e uma privada). A chave única é da simétrica[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="E">
+            <div class="enunciado">102. Salvar arquivos como "teste" ou "documento1" é uma prática eficiente de organização.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q102" value="C"> Certo</label><label><input type="radio" name="q102" value="E"> Errado</label><label><input type="radio" name="q102" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Nomes genéricos dificultam a gestão e busca de arquivos[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="C">
+            <div class="enunciado">103. O Cavalo de Tróia (Trojan) disfarça-se de programa inofensivo para executar ações maliciosas.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q103" value="C"> Certo</label><label><input type="radio" name="q103" value="E"> Errado</label><label><input type="radio" name="q103" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Conceito clássico de trojan[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="C">
+            <div class="enunciado">104. O PDF é mais recomendado que Word para evitar edições acidentais de destinatários.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q104" value="C"> Certo</label><label><input type="radio" name="q104" value="E"> Errado</label><label><input type="radio" name="q104" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Preserva leiaute e dificulta edições acidentais[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="C">
+            <div class="enunciado">105. O Thunderbird gerencia e-mails offline desde que previamente baixados.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q105" value="C"> Certo</label><label><input type="radio" name="q105" value="E"> Errado</label><label><input type="radio" name="q105" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Característica de aplicativo cliente de e-mail local[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="E">
+            <div class="enunciado">106. Para ser dinâmica, a apresentação do PowerPoint deve ter efeitos em todos os objetos.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q106" value="C"> Certo</label><label><input type="radio" name="q106" value="E"> Errado</label><label><input type="radio" name="q106" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Excesso de animações causa poluição visual[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="E">
+            <div class="enunciado">107. Redes sociais como Instagram e LinkedIn só permitem mensagens privadas entre 2 pessoas.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q107" value="C"> Certo</label><label><input type="radio" name="q107" value="E"> Errado</label><label><input type="radio" name="q107" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Redes sociais focam em interação pública e redes conectadas[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="C">
+            <div class="enunciado">108. As extensões .jpg e .exe correspondem a imagem e executável, respectivamente.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q108" value="C"> Certo</label><label><input type="radio" name="q108" value="E"> Errado</label><label><input type="radio" name="q108" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Padrão de extensões do Windows[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="E">
+            <div class="enunciado">109. Um atalho cria uma cópia física e independente do arquivo original.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q109" value="C"> Certo</label><label><input type="radio" name="q109" value="E"> Errado</label><label><input type="radio" name="q109" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Atalho é um link ponteiro para o arquivo de origem, não uma cópia duplicada[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="C">
+            <div class="enunciado">110. O Firewall controla o tráfego de dados filtrando conexões indesejadas.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q110" value="C"> Certo</label><label><input type="radio" name="q110" value="E"> Errado</label><label><input type="radio" name="q110" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Primeira linha de defesa em redes[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="E">
+            <div class="enunciado">111. A confidencialidade garante que a informação não seja alterada indevidamente.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q111" value="C"> Certo</label><label><input type="radio" name="q111" value="E"> Errado</label><label><input type="radio" name="q111" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Não alteração é INTEGRIDADE. Confidencialidade refere-se ao acesso restrito[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="E">
+            <div class="enunciado">112. Os algoritmos do Instagram personalizam o feed sem influência de anúncios pagos.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q112" value="C"> Certo</label><label><input type="radio" name="q112" value="E"> Errado</label><label><input type="radio" name="q112" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Anúncios pagos alteram a exibição no feed[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="C">
+            <div class="enunciado">113. Worms propagam-se autonomamente sem precisar de arquivo hospedeiro.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q113" value="C"> Certo</label><label><input type="radio" name="q113" value="E"> Errado</label><label><input type="radio" name="q113" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Diferença essencial entre vírus e worm[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="E">
+            <div class="enunciado">114. Vírus de substituição guardam cópias dos dados alterados para recuperação.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q114" value="C"> Certo</label><label><input type="radio" name="q114" value="E"> Errado</label><label><input type="radio" name="q114" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Vírus de sobrescrita destrói o conteúdo original sem fazer cópia[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="E">
+            <div class="enunciado">115. O backup incremental copia todos os arquivos independentemente de alteração.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q115" value="C"> Certo</label><label><input type="radio" name="q115" value="E"> Errado</label><label><input type="radio" name="q115" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Copiar tudo é backup COMPLETO. Incremental copia só o que mudou desde o último backup[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="E">
+            <div class="enunciado">116. No Google, o sitemap é uma representação gráfica interativa.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q116" value="C"> Certo</label><label><input type="radio" name="q116" value="E"> Errado</label><label><input type="radio" name="q116" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Sitemap é um arquivo estruturado de texto (XML) lido por robôs buscadores[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="C">
+            <div class="enunciado">117. O Switch opera na Camada de Enlace (MAC) e o Hub na Camada Física.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q117" value="C"> Certo</label><label><input type="radio" name="q117" value="E"> Errado</label><label><input type="radio" name="q117" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Distinção correta dos equipamentos de rede[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="E">
+            <div class="enunciado">118. Chrome e Firefox interpretam comandos JS e CSS sem qualquer variação técnica.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q118" value="C"> Certo</label><label><input type="radio" name="q118" value="E"> Errado</label><label><input type="radio" name="q118" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Motores de renderização distintos (Blink vs Gecko) podem apresentar variações[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="C">
+            <div class="enunciado">119. Buscadores utilizam robôs (crawlers) para varrer e indexar páginas continuamente.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q119" value="C"> Certo</label><label><input type="radio" name="q119" value="E"> Errado</label><label><input type="radio" name="q119" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Funcionamento padrão dos motores de busca[cite: 1].<br><strong>Gabarito: Certo (C)</strong>[cite: 1]</div>
+        </div>
+
+        <div class="questao" data-materia="Noções de Informática" data-resposta="E">
+            <div class="enunciado">120. Grupos de discussão (newsgroups) exigem comunicação síncrona em tempo real.[cite: 1]</div>
+            <div class="opcoes"><label><input type="radio" name="q120" value="C"> Certo</label><label><input type="radio" name="q120" value="E"> Errado</label><label><input type="radio" name="q120" value="B" checked> Em branco</label></div>
+            <div class="comentario"><strong>Comentário do Professor:</strong> Newsgroups são ferramentas ASSÍNCRONAS[cite: 1].<br><strong>Gabarito: Errado (E)</strong>[cite: 1]</div>
+        </div>
+
+        <button type="button" class="btn-submit" onclick="calcularResultado()">Corrigir Simulado Completo (120 Questões)</button>
+    </form>
+
+    <div id="resultado">
+        <h2>Relatório de Desempenho por Disciplina</h2>
+        <table id="tabela-resultados">
+            <thead>
+                <tr>
+                    <th>Disciplina</th>
+                    <th>Acertos (+1)</th>
+                    <th>Erros (-1)</th>
+                    <th>Em Branco (0)</th>
+                    <th>Pontos Líquidos</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <div class="pontos-total" id="pontos-totais"></div>
+    </div>
+</div>
+
+<script>
+function calcularResultado() {
+    const questoes = document.querySelectorAll('.questao');
+    const estatisticas = {};
+    let notaTotalGeral = 0;
+
+    questoes.forEach(q => {
+        const materia = q.getAttribute('data-materia');
+        const respostaCerta = q.getAttribute('data-resposta');
+        const selecao = q.querySelector('input[type="radio"]:checked').value;
+        const comentarioDiv = q.querySelector('.comentario');
+
+        comentarioDiv.style.display = 'block';
+
+        if (!estatisticas[materia]) {
+            estatisticas[materia] = { acertos: 0, erros: 0, branco: 0, liquida: 0 };
+        }
+
+        if (selecao === respostaCerta) {
+            estatisticas[materia].acertos += 1;
+            estatisticas[materia].liquida += 1;
+            notaTotalGeral += 1;
+        } else if (selecao === 'B') {
+            estatisticas[materia].branco += 1;
+        } else {
+            estatisticas[materia].erros += 1;
+            estatisticas[materia].liquida -= 1;
+            notaTotalGeral -= 1;
+        }
+    });
+
+    const tbody = document.querySelector('#tabela-resultados tbody');
+    tbody.innerHTML = '';
+
+    for (const [materia, dados] of Object.entries(estatisticas)) {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+            <td style="text-align:left;"><strong>${materia}</strong></td>
+            <td style="color:green;">${dados.acertos}</td>
+            <td style="color:red;">${dados.erros}</td>
+            <td style="color:gray;">${dados.branco}</td>
+            <td><strong>${dados.liquida.toFixed(1)}</strong></td>
+        `;
+        tbody.appendChild(tr);
+    }
+
+    document.getElementById('pontos-totais').innerText = `Pontuação Líquida Total: ${notaTotalGeral.toFixed(1)} Ponto(s)`;
+    document.getElementById('resultado').style.display = 'block';
+    document.getElementById('resultado').scrollIntoView({ behavior: 'smooth' });
+}
+</script>
+
+</body>
+</html>
